@@ -1,0 +1,26 @@
+{
+    "name": "wijbe/framework",
+    "description": "Wijbe Framework",
+    "keywords": ["wijbe", "framework", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Corey Wynsma",
+            "email": "corey@wynsma.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/Facades",
+            "src/Libraries"
+        ],
+        "files": [
+            "src/boot.php"
+        ],
+        "psr-4": {
+            "Wijbe\\Framework\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
