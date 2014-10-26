@@ -1,7 +1,7 @@
 {
-    "name": "wijbe/framework",
-    "description": "Wijbe Framework",
-    "keywords": ["wijbe", "framework", "php"],
+    "name": "wijbe/system",
+    "description": "Wijbe System",
+    "keywords": ["wijbe", "framework", "system", "php"],
     "license": "MIT",
     "authors": [
         {
