@@ -19,6 +19,15 @@ class Config  {
   protected static $name = 'config';
 
 
+
+  public function __construct()
+  {
+
+    
+
+  }
+
+
   /**
   * Get
   *

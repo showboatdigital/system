@@ -115,7 +115,7 @@ class Route {
     $args = array_slice( $this->path, 2 );
 
     // fire controller method with args
-    call_user_func_array( [ $controller, $method ], $args );
+    return call_user_func_array( [ $controller, $method ], $args );
 
   }
 

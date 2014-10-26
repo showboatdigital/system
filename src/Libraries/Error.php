@@ -1,4 +1,4 @@
-<?php
+<?php namespace Wijbe\System\Libraries;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,13 +17,13 @@ class Error {
   * @return void
   */
 
-  function public __construct()
+  public function __construct()
   {
 
-    set_exception_handler( $this, 'catcher' );
+    //set_exception_handler( call_user_func_array( [ $this, 'catcher' ], [ $e ] ) );
 
 
-    set_error_handler( $this, 'handler' );
+    //set_error_handler( $this, 'handler' );
 
   }
 
