@@ -29,10 +29,10 @@ abstract class Facade {
 
   public static function __callStatic( $method, $args )
   {
-    if( empty( static::$alias ) )
+    if( empty( static::$accessor ) )
       throw new \Exception( 'Class does not implement abstract Facade correctly.' );
 
-    $instance = \Init::call( static::$alias );
+    $instance = \Init::call( static::$accessor );
 
     return call_user_func_array( [ $instance, $method ], $args );
   }
