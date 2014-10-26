@@ -26,9 +26,9 @@ class Init {
   * @return void
   */
 
-  public static function call( $alias )
+  public static function call( $accessor )
   {
-    $instance = static::$instances[ $alias ];
+    $instance = static::$instances[ $accessor ];
 
     if ( $instance instanceof Closure )
       $instance = $instance();
@@ -43,12 +43,12 @@ class Init {
   * @return void
   */
 
-  public static function bind( $alias, $instance )
+  public static function bind( $accessor, $instance )
   {
     if ( is_string( $instance ) )
       $instance = new $instance();
 
-    static::$instances[ $alias ] = $instance;
+    static::$instances[ $accessor ] = $instance;
   }
 
 

@@ -17,7 +17,7 @@ class Error extends Facade {
   * @var string
   */
 
-  protected static $alias = 'error';
+  protected static $accessor = 'error';
 
 
 

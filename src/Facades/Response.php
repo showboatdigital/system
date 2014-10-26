@@ -16,7 +16,7 @@ class Response extends Facade {
   * @var string
   */
 
-  protected static $alias = 'response';
+  protected static $accessor = 'response';
 
 
 }

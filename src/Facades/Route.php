@@ -16,7 +16,7 @@ class Route extends Facade {
   * @var string
   */
 
-  protected static $alias = 'route';
+  protected static $accessor = 'route';
 
 
 }

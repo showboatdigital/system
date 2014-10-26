@@ -16,7 +16,7 @@ abstract class Facade {
   * @var string
   */
 
-  protected static $alias;
+  protected static $accessor;
 
 
   /**

@@ -17,7 +17,7 @@ class View extends Facade {
   * @var string
   */
 
-  protected static $alias = 'view';
+  protected static $accessor = 'view';
 
 
 
