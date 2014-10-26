@@ -1,4 +1,4 @@
-<?php
+<?php namespace Wijbe\System\Libraries;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +23,7 @@ class Config  {
   public function __construct()
   {
 
-    
+
 
   }
 
