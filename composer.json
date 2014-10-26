@@ -14,10 +14,7 @@
         "classmap": [
             "src/Facades",
             "src/Libraries"
-        ],
-        "files": [
-            "src/boot.php"
-        ],
+        ]
         "psr-4": {
             "Wijbe\\Framework\\": "src/"
         }
