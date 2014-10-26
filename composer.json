@@ -14,7 +14,7 @@
         "classmap": [
             "src/Facades",
             "src/Libraries"
-        ]
+        ],
         "psr-4": {
             "Wijbe\\Framework\\": "src/"
         }
