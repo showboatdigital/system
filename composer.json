@@ -16,7 +16,7 @@
             "src/Libraries"
         ],
         "psr-4": {
-            "Wijbe\\Framework\\": "src/"
+            "Wijbe\\System\\": "src/"
         }
     },
     "minimum-stability": "dev"
