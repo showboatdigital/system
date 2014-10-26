@@ -31,7 +31,7 @@ class View {
 
   public function load( $view, $data = array() )
   {
-    $view = APPLICATION . '/views/' . str_replace( '.', '/', $view ) . '.php';
+    $view = $_ENV[ 'path' ][ 'application' ] . '/views/' . str_replace( '.', '/', $view ) . '.php';
 
     if( ! file_exists( $view ) )
       throw new Exception( 'View file ' . $view . ' not found.' );
@@ -54,7 +54,7 @@ class View {
 
   public function template( $template )
   {
-    $template = APPLICATION . '/views/' . str_replace( '.', '/', $template ) . '.php';
+    $template = $_ENV[ 'path' ][ 'application' ] . '/views/' . str_replace( '.', '/', $template ) . '.php';
 
     if( ! file_exists( $template ) )
       throw new Exception( 'Template file ' . $template . ' not found.' );
